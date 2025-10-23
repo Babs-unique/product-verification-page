@@ -1,16 +1,93 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# **Product Verification Page**
 
-Currently, two official plugins are available:
+A **React-based product verification page** that allows users to quickly verify products online. Deployed via GitHub Pages for easy accessibility.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## **Demo**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Live demo: [https://Babs-unique.github.io/product-verification-page/](https://Babs-unique.github.io/product-verification-page/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## **Features**
+
+* Verify products quickly online
+* Clean and responsive UI built with React
+* Deployed via GitHub Pages
+
+---
+
+## **Getting Started**
+
+### **Clone the repository**
+
+```bash
+git clone https://github.com/Babs-unique/product-verification-page.git
+cd product-verification-page
+```
+
+### **Install dependencies**
+
+```bash
+npm install
+```
+
+### **Run locally**
+
+```bash
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view in the browser.
+
+---
+
+## **Deployment**
+
+This project uses **GitHub Pages** for deployment. To deploy your own copy:
+
+```bash
+npm run build
+npm run deploy
+```
+
+* CRA output folder: `build`
+* Vite output folder: `dist`
+* The app will be live at:
+  `https://<username>.github.io/product-verification-page/`
+
+---
+
+## **Folder Structure**
+
+```
+product-verification-page/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── vite.config.js (if using Vite)
+```
+
+---
+
+## **Contributing**
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -m 'Add feature'`)
+4. Push to branch (`git push origin feature-name`)
+5. Create a Pull Request
+
+---
+
+## **License**
+
+This project is open source and available under the **MIT License**.
+
